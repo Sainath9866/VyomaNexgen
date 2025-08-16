@@ -6,9 +6,19 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: [
-      'www.vyomanexgen.com',
-      'intileo.com'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.vyomanexgen.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'intileo.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      }
     ],
   },
 };
