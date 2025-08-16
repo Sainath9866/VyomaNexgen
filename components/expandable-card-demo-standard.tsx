@@ -268,7 +268,7 @@ const cards = [
   {
     description: "Digital Menu and ordering system for Restaurant",
     title: "Restaurant App",
-    src: "http://vyomanexgen.com/images/original-2a00a1da8fdfc5ef2f0e1f562682b061.gif",
+    src: "https://www.vyomanexgen.com/images/original-2a00a1da8fdfc5ef2f0e1f562682b061.gif",
     ctaText: "Link",
     ctaLink: "http://sainath-tech.vercel.app/",
     content: () => {
